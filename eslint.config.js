@@ -12,17 +12,16 @@ const formattingRules = {
   'object-curly-spacing': ['error', 'always']
   ,
   'linebreak-style': ['error', 'unix'] // 👈 ajoute cette ligne
-  ,
-  // 👇 Line spacing rules
-  'padding-line-between-statements': [
-    'error',
-    { blankLine: 'always', prev: 'import', next: '*' },
-    { blankLine: 'any', prev: 'import', next: 'import' },
-    { blankLine: 'always', prev: '*', next: 'return' },
-    { blankLine: 'always', prev: 'block-like', next: '*' }
-  ],
-  'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }]
 
+  // 👇 Line spacing rules
+  // 'padding-line-between-statements': [
+  //   'error',
+  //   { blankLine: 'always', prev: 'import', next: '*' },
+  //   { blankLine: 'any', prev: 'import', next: 'import' },
+  //   { blankLine: 'always', prev: '*', next: 'return' },
+  //   { blankLine: 'always', prev: 'block-like', next: '*' }
+  // ],
+  // 'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }]
 }
 
 const jsConfig = {
